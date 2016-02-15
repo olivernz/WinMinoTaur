@@ -31,4 +31,4 @@ to you hearts content.
 If you are using this and find it useful I'd be happy to hear about feedback or changes you have made
 or want. Email me at WinoTaurus(at)erlewein.org.
 
-Oliver
+Oliver Erlewein
