@@ -1,4 +1,4 @@
-# WinoTaurus
+# WinTaurus
 Windows Performance Test Framework for JMeter
 
 This Performance Test Framework (PTF) is a hugely simplified version of the PTF that exists for linux (not open source ...yet). The following features are why the PTF is useful:
