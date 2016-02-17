@@ -1,4 +1,4 @@
-# WinTaurus
+# WinMinoTaur
 Windows Performance Test Framework for JMeter
 
 ## Introduction
