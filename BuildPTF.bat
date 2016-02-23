@@ -22,7 +22,7 @@
 
 echo Build script start
 
-SET mainDir=\Performance2
+SET mainDir=\Performance
 
 :: Create directory tree
 mkdir %mainDir%
