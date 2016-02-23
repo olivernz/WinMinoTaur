@@ -39,7 +39,7 @@ SET Prefix=%3
 SET LoadTime=%4
 SET LoadShape=%5
 SET Note=%6
-:: Below can be used to add a user name to the results directory.
+:: Below can be used to add a user name to the results directory. Prefix with an _
 SET User=
 
 :: If you want to shorten the prefix given to a certain length. In
@@ -80,7 +80,7 @@ SET TestStartTime=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2% %datetime:~8,2
 
 :: Create results directory
 :: Format of  dir is HH-MM-SS_XXXX_XXXXXXXXXXXXXX...
-set resultsDir=%resultsDir%\%datetime:~8,2%-%datetime:~10,2%-%datetime:~12,2%_%Prefix%_%TestName%_%User%
+set resultsDir=%resultsDir%\%datetime:~8,2%-%datetime:~10,2%-%datetime:~12,2%_%Prefix%_%TestName%%User%
 mkdir %resultsDir%
 cd %resultsDir%
 
