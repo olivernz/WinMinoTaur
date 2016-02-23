@@ -1,0 +1,1 @@
+-JconfigDir=\Performance\config -JdataDir=\Performance\data 

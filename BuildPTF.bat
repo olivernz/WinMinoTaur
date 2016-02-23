@@ -22,7 +22,7 @@
 
 echo Build script start
 
-SET mainDir=\Performance
+SET mainDir=\Performance2
 
 :: Create directory tree
 mkdir %mainDir%
@@ -36,10 +36,12 @@ mkdir %mainDir%\commands
 mkdir %mainDir%\results
 
 :: Copy example files
-copy runPerfTest.sh		%mainDir%\commands
-copy exampleEnv.cnf		%mainDir%\config\exampleEnv
-copy exampleBalance.cnf	%mainDir%\config\exampleEnv
+copy runPerfTest.bat	%mainDir%\commands
+copy exampleEnv.cfg		%mainDir%\config\exampleEnv
+copy exampleBalance.cfg	%mainDir%\config\exampleEnv
 copy exampleScript.JMX	%mainDir%\scripts
+copy example.groovy		%mainDir%\scripts
 copy exampleData.csv	%mainDir%\data\exampleEnv
+copy global.txt			%mainDir%\config
 
 echo Build script done. PTF under %mainDir%
