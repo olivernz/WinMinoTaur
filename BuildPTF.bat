@@ -1,7 +1,7 @@
 @echo off
 
-:: WinTaurus - Performance Test Harness Build Script
-:: -------------------------------------------------
+:: WinMinoTaur - Performance Test Harness Build Script
+:: ---------------------------------------------------
 ::
 :: This is the main executable for the framework. It will do all processing
 :: needed to run the JMeter script.
