@@ -59,7 +59,7 @@ SET ResultsSubDir=TestResults
 
 :: Check if command was started with arguments
 IF NOT "%Environment%" == "" GOTO :ContinueNormally 
-    echo Usage: runPerformanceTest.bat [Environment] [TestName] [Prefix] [LoadTime] [LoadShape]
+    echo Usage: runPerfTest.bat [Environment] [TestName] [Prefix] [LoadTime] [LoadShape]
 	echo        [Environment] name of cfg file in config directory (no extension)
 	echo        [TestName] the name of the test (no extension)
 	echo        [Prefix] that the test results will have
