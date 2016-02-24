@@ -40,6 +40,6 @@ Now manually unzip JMeter and JMeter-plugins to <drive>:\Performance\jmeter\. Th
 Now load your JMX files to the scripts directory and set up your environment configs and balance configs. Then you are free to execute.
 
 If you are using this and find it useful I'd be happy to hear about feedback or changes you have made
-or want. Email me at WinoTaurus(at)erlewein.org.
+or want. Email me at WinMinoTaur(at)erlewein.org.
 
 Oliver Erlewein
