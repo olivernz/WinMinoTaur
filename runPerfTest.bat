@@ -108,7 +108,7 @@ copy %configDir%\%Environment%\%LoadShape%.cfg %resultsDir%
 SET /p JMeterGlobalDefaults=<%configDir%\global.txt
 SET JMeterEnvironmentVariables=%configDir%\%Environment%.cfg
 SET JMeter=<%configDir%\global.txt
-SET jmCMD=%jmeterDir%\bin\%jmeterCommand% -n -t %TestName%.jmx -l results.jtl -j jmeter.log -JLoadTime=%LoadTime% -JresultsDir=%resultsDir% -JPrefix=%Prefix% -JLoadBalanceVariables=%LoadShape%
+SET jmCMD=%jmeterDir%\bin\%jmeterCommand% -n -t %TestName%.jmx -l results.jtl -j jmeter.log -JEnvironment=%Environment% -JLoadTime=%LoadTime% -JresultsDir=%resultsDir% -JPrefix=%Prefix% -JLoadBalanceVariables=%LoadShape%
 
 echo ----Starting Performance Test %TestName% - %date% %time%
 IF "%DryRun%"=="true" ( 
